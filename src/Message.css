@@ -1,0 +1,32 @@
+.Message {
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid gray;
+}
+
+.Message-text {
+  margin-right: auto
+}
+
+.Message-replyCount {
+  margin-left: 8px;
+  background-color: paleturquoise;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.Message-time {
+  margin-left: 8px;
+  font-size: 13px;
+  color: gray;
+}
+
+.Modal {
+  position: absolute;
+  background-color: white;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+  border: 1px solid black;
+}
